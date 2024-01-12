@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+
+}
+
+body {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: none;
+  background: none;
+}
