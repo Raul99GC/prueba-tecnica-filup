@@ -41,7 +41,6 @@ const usePokemons = () => {
     axios.get(link)
       .then(({ data }) => {
         setPokemons({
-          ...pokemons,
           pokemons: data.pokemons,
           nextPage: data?.pagination ? data.pagination.nextPage : '',
           prevPage: data?.pagination?.prevPage ? data.pagination.prevPage : '',
