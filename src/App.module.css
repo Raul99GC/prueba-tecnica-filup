@@ -1,27 +1,28 @@
 .main {
   font-family: 'Outfit';
+  height: 100vh;
   min-height: 100vh;
   background-color: #F6F8FC;
-  padding: 6px;
-  padding-top: 10px;
+  padding: 2.4rem;
+  padding-top: 4rem;
   font-size: 1.5rem;
-  background-image: url('../public/images/pokeball-icon.png');
+  background-image: url('/images/pokeball-icon.png');
   background-repeat: no-repeat;
   background-position: -100px -100px;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   max-width: 1400px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  gap: 1rem;
+  gap: 1.6rem;
 }
 
 @media (min-width: 1024px) {
   .container {
-    flex-direction: row;
-    justify-content: space-between;
+    grid-template-columns: 1fr 350px;
   }
 }
