@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-const firstLink = 'http://localhost:8080/api/v1/pokemon?limit=10&page=1'
+const firstLink = 'http://localhost:8080/api/v1/pokemon'
 
 const usePokemons = () => {
   const [pokemons, setPokemons] = useState({
