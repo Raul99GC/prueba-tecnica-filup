@@ -1,0 +1,13 @@
+.paginationContainer {
+  width: 100%;
+  padding: 0 20%;
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.active {
+  /* Your existing styles for the active button */
+  color: red; /* Set the color to red for the active button */
+}
