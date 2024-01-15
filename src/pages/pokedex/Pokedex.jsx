@@ -22,6 +22,7 @@ const Pokedex = () => {
   }
 
   const onClickPagination = (link) => {
+    console.log({ link })
     getPokemons(link)
   }
 
