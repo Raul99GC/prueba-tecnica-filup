@@ -1,6 +1,6 @@
 import styles from './App.module.css'
+import PokeInfo from './pages/pokeInfo/PokeInfo'
 import Pokedex from './pages/pokedex/Pokedex'
-// import { usePokemonStore } from './store/pokemon'
 
 function App () {
   return (
@@ -8,6 +8,7 @@ function App () {
       <main className={styles.main}>
         <div className={styles.container}>
           <Pokedex />
+          <PokeInfo />
         </div>
       </main>
     </>
