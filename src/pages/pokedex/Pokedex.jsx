@@ -1,5 +1,3 @@
-// import axios from 'axios'
-import { useEffect } from 'react'
 import styles from './pokedex.module.css'
 import useForm from '../../hooks/useForm'
 
@@ -26,10 +24,6 @@ const Pokedex = () => {
   const onClickPagination = (link) => {
     getPokemons(link)
   }
-
-  useEffect(() => {
-    console.log(pokemons)
-  }, [pokemons])
 
   return (
     <>
