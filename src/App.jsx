@@ -1,5 +1,5 @@
 import styles from './App.module.css'
-import Pokedex from './pages/Pokedex'
+import Pokedex from './pages/pokedex/Pokedex'
 // import { usePokemonStore } from './store/pokemon'
 
 function App () {
