@@ -1,3 +1,16 @@
+:root {
+  --gray-color: #A1A1A1;
+  --green-color: #70A83B;
+  --light-blue-color: #A2CFF0;
+  --blue-color: #76AADB;
+  --red-color: #F76545;
+  --purple-color: #A974BC;
+  --brown-color: #9B897B;
+  --yellow-color: #F7C545;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -34,4 +47,11 @@ img {
 button {
   border: none;
   background: none;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
